@@ -1,0 +1,23 @@
+footer {
+  background-color: #344e41;
+  height: 100px;
+  color: #f8f9fa;
+  font-family: cursive;
+}
+footer p {
+  margin-left: 455px;
+  margin-top: 45px;
+}
+/* responsive tablet mode*/
+@media screen and (max-width: 980px) {
+  footer p {
+    margin-left: 40%;
+  }
+}
+/* responsive mobile mode*/
+@media screen and (max-width: 760px) {
+  footer p {
+    margin-left: 15%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  width: 100%;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-container > * {
+  padding: 20px;
+  /*border: 1px solid red;*/
+}
